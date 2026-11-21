@@ -22,8 +22,8 @@ jobs:
             exit 1
           }
  
-          if (-not (Test-Path "README.md")) {
-            Write-Error "README.md does not exist!"
+          iF(-not (Test-path "README.md")) {
+            Write-Error "REDME.md does not exit!"
             exit 1
           }
  
